@@ -1,3 +1,12 @@
+/*
+Problem: Happy Number
+Description: Write a program to check if a number is a Happy Number. A happy number eventually reaches 1 when replaced by the sum of the squares of each digit, repeatedly.
+Example:
+Input: 19
+Output: true (Happy Number)
+Source: LeetCode (https://leetcode.com/problems/happy-number/)
+*/
+
 #include <stdio.h>
 int printAndSum(int n)
 {
@@ -52,3 +61,4 @@ int main()
     isHappy(n);
     return 0;
 }
+
